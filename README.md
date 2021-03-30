@@ -26,13 +26,13 @@ In order to calculate our error, in each epoch we will be using the mean squared
 ![mean-squared-error](https://raw.githubusercontent.com/AlonsoOropeza/LinearRegression/main/mean-squared-error.png)  
 Thus means the sumatory of the squares of the prediction minus the real value.
 ### Dataset
-Finally the stature_hand_foot.csv dataset has the following variables:  
-idGen  (w/in gender)  
-gender       (1=M, 2=F)
-height   (mm)  
-handLen (mm)   
-footLen (mm)  
-We make a bit of **preprocessing** before we train the model with the dataframe, for example we scaled down a little bit the height, handLen and footLen in order to be in centimeters, also we create hot-econding with the gender. 
+Finally the stature_hand_foot.csv dataset has the following variables:
+- idGen (w/in gender)  
+- gender (1=M, 2=F)
+- height (mm)  
+- handLen (mm)   
+- footLen (mm)  
+We make a bit of **preprocessing** before we train the model with the dataframe. We scaled down a little bit the height, handLen and footLen in order to be in centimeters, we also used hot-econding with the gender. 
 ### How to run it
 
 ## Results
