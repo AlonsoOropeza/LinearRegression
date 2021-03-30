@@ -16,17 +16,17 @@ As you saw, b is now the **bias**, which is the difference between our actual an
 ![bias-variance](https://raw.githubusercontent.com/AlonsoOropeza/LinearRegression/main/bias-variance.png)  
 
 ## Materials and Methods
-### Dependencies
-In order to make our prediction we have to determine the value of each slope, we can do this using an efficient implementation of linear regression: *gradient descent*.  
+### Gradient Descent
+In order to make our prediction we have to determine the value of each slope, we can do this using an efficient implementation of linear regression, named gradient descent.  
 Gradient descent update the parameters (slopes) by calculating over and over its values until the predicted value is the same as the real value, the error is less than the acceptance value (alpha) or the number or runs (epochs) reach a limit. In a nutshell, gradient descent does big steps when far way, and does baby steps when close to the optimal value.
 ![bias-gradient-descent](https://raw.githubusercontent.com/AlonsoOropeza/LinearRegression/main/gradient-descent.png)  
 Where theta is each one of the parameters (theta 0 is the bias), alpha is the value of acceptance, m is the number of parameters, h0 is a prediction, y(i) is the real value and finally, xij is the value of the samples.   
-
-In order to calculate our error, in each epoch we will be using the **mean squared error**
+### Mean Squared Error
+In order to calculate our error, in each epoch we will be using the mean squared error
 ![mean-squared-error](https://raw.githubusercontent.com/AlonsoOropeza/LinearRegression/main/mean-squared-error.png)  
 Thus means the sumatory of the squares of the prediction minus the real value.
-
-Finally the stature_hand_foot.csv **dataset** has the following variables:  
+### Dataset
+Finally the stature_hand_foot.csv dataset has the following variables:  
 idGen  (w/in gender)  
 gender       (1=M, 2=F)
 height   (mm)  
