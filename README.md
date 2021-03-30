@@ -32,7 +32,7 @@ gender       (1=M, 2=F)
 height   (mm)  
 handLen (mm)   
 footLen (mm)  
-We make a bit of preprocessing before we train the model with the dataframe, for example we scaled down a little bit the height, handLen and footLen in order to be in centimeters, also we create hot-econding with the gender. 
+We make a bit of **preprocessing** before we train the model with the dataframe, for example we scaled down a little bit the height, handLen and footLen in order to be in centimeters, also we create hot-econding with the gender. 
 ### How to run it
 
 ## Results
