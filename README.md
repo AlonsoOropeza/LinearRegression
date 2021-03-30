@@ -8,11 +8,11 @@ We will be using linear regression, which is a machine learning algorithm thats 
 ![linear-model](https://raw.githubusercontent.com/AlonsoOropeza/LinearRegression/main/linear-model.png)  
 But for those of you who just read that line and didn't understand what the heck I am talking about, let me rephrase it.  
 Do you remember your highschool math clases, when you saw the equation of a line?  
-The famous y = mx + b 
+The famous **y = mx + b**  
 Where y is the output, m is the slope of the line, x is the input and b is the intercept.
-Well this is similar, but with minor modifications. Now we can have multiple features, that means multiple pairs of slopes and x's. In other words:  
-prediction = m1x1 + m2x2 + m3x3 + ... + mnxn + bias  
-As you saw, b is now the bias, which is the difference between our actual and predicted values. The model is also affected by how "noisy" the data is, the so called variance is the model’s sensitivity to fluctuations in the data. Analyize the image below for further explanation.  
+Well this is similar, but with minor modifications. Now we can have multiple features, that means multiple pairs of slopes and x's. 
+In other words: **prediction = m1x1 + m2x2 + m3x3 + ... + mnxn + bias**  
+As you saw, b is now the **bias**, which is the difference between our actual and predicted values. The model is also affected by how "noisy" the data is, the so called **variance** is the model’s sensitivity to fluctuations in the data. Analyize the image below for further explanation.  
 ![bias-variance](https://raw.githubusercontent.com/AlonsoOropeza/LinearRegression/main/bias-variance.png)  
 
 ## Materials and Methods
