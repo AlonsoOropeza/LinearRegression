@@ -1,6 +1,6 @@
 # Predicting features of human anatomy using linear regression
 ## Abstract
-Have you ever wonder if the stature of a person determines the lenght of their feet and hands? For Lord of the Rings fans, what about hobbits, they are smaller than humans, nevertheless they have large feet. Is there any relation between these variables or is it mere coincidence? Thankfully, using linear regression, we can make a prediction based on its dependance of other features to finally answer if its true our hypothesis or not. 
+Have you ever wonder if the stature of a person determines the lenght of their feet and hands? For Lord of the Rings fans, what about hobbits, they are smaller than humans, nevertheless they have larger feet. Is there any relation between these variables or is it mere coincidence? Thankfully, using linear regression, we can make a prediction based on its dependance of other features to finally answer if its true our hypothesis or not. 
 
 ## Introduction
 As we implied in the abstract, our objective is to determine if there is any relation between the stature of a human and the lenght of their feet and hands.  
@@ -38,8 +38,7 @@ We make a bit of **preprocessing** before we train the model with the dataframe,
 ## Results
 ## Discussion
 ## Limitations
-Stature, hand length, and foot length among 80 males and 75 females.
-## Acknowledgments
+Because we only analyze data from one source, it may be too soon to make generalized conclusions. Also the dataset contained stature, hand length, and foot length among 80 males and 75 females, which gives a total of 155 rows and that in the machine learning community is considered as a small sample. We definitily need more data (maybe records from different people around the world) to make better predicitions. 
 ## References
 S.G. Sani, E.D. Kizilkanat, N. Boyan, et al. (2005).
 "Stature Estmation Based on Hand Length and Foot Length," Clinical
