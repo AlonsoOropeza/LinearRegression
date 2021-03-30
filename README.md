@@ -31,7 +31,8 @@ Finally the stature_hand_foot.csv dataset has the following variables:
 - gender (1=M, 2=F)
 - height (mm)  
 - handLen (mm)   
-- footLen (mm)  
+- footLen (mm)
+  
 We make a bit of **preprocessing** before we train the model with the dataframe. We scaled down a little bit the height, handLen and footLen in order to be in centimeters, we also used hot-econding with the gender. 
 ### How to run it
 
