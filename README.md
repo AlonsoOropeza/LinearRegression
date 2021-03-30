@@ -1,2 +1,23 @@
-# LinearRegression
+# Linear Regression
 Predict variables based on the stature_hand_foot dataset using linear regression. (Gradient Descent)
+
+
+Dataset:  stature_hand_foot.csv
+
+
+Source: S.G. Sani, E.D. Kizilkanat, N. Boyan, et al. (2005).
+"Stature Estmation Based on Hand Length and Foot Length," Clinical
+Anatomy, Vol. 18, pp. 589-596.
+
+
+Description: Stature, hand length, and foot length among 80 males and 75 females.
+Data simulated to have equal means, SDs, and correlations.
+
+
+Variable Names
+
+idGen  (w/in gender)  
+gender       (1=M, 2=F)
+height   (mm)  
+handLen (mm)   
+footLen (mm)  
