@@ -4,16 +4,25 @@ Have you ever wonder if the stature of a person determines the lenght of their f
 
 ## Introduction
 As we implied in the abstract, our objective is to determine if there is any relation between the stature of a human and the lenght of their feet and hands.  
-We will be using linear regression, which is a machine learning algorithm thats tries to fit data into a linear model. But for those of you who just read that line and didn't understand what the heck I am talking about, let me rephrase it.  
+We will be using linear regression, which is a machine learning algorithm thats tries to fit data into a linear model. 
+![linear-model](https://raw.githubusercontent.com/AlonsoOropeza/LinearRegression/main/linear-model.png)  
+But for those of you who just read that line and didn't understand what the heck I am talking about, let me rephrase it.  
 Do you remember your highschool math clases, when you saw the equation of a line?  
-The famous y = mx + b  
-Where y is the output, m is the slope of the line, x is the input and b is the intercept? 
+The famous y = mx + b 
+Where y is the output, m is the slope of the line, x is the input and b is the intercept.
 Well this is similar, but with minor modifications. Now we can have multiple features, that means multiple pairs of slopes and x's. In other words:  
 prediction = m1x1 + m2x2 + m3x3 + ... + mnxn + bias  
-As you saw, b is now the bias, which is the difference between our actual and predicted values. The model is also affected by how "noisy" the data is, the so called variance is the model’s sensitivity to fluctuations in the data. See image-1.1 for further explanation.  
-![image_1.1](http://url/to/img.png)
+As you saw, b is now the bias, which is the difference between our actual and predicted values. The model is also affected by how "noisy" the data is, the so called variance is the model’s sensitivity to fluctuations in the data. Analyize the image below for further explanation.  
+![bias-variance](https://raw.githubusercontent.com/AlonsoOropeza/LinearRegression/main/bias-variance.png)  
 
 ## Materials and Methods
+In order to make our prediction we have to determine the value of each slope, we can do this using an efficient implementation of linear regression: gradient descent.  
+Gradient descent update the parameters (slopes) by calculating over and over its values until the predicted value is the same as the real value, the error is less than the acceptance value (alpha) or the number or runs (epochs) reach a limit. In a nutshell, gradient descent does big steps when far way, and does baby steps when close to the optimal value.
+In order to calculate our error, in each epoch we will be using the mean squared error
+
+up being the same as minimizing the mean squared error (cost function). We achieve this by updating the parameters until we reach a certain number of rounds (epochs), we get an acceptable error or until the parameters are no longer being updated because they are as accurate as they can be.
+
+
 Dataset:  stature_hand_foot.csv
 
 Variable Names
