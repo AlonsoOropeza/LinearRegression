@@ -18,9 +18,9 @@ As you saw, b is now the **bias**, which is the difference between our actual an
 ## Materials and Methods
 ### Gradient Descent
 In order to make our prediction we have to determine the value of each slope, we can do this using an efficient implementation of linear regression, named gradient descent.  
-Gradient descent update the parameters (slopes) by calculating over and over its values until the predicted value is the same as the real value, the error is less than the acceptance value (alpha) or the number or runs (epochs) reach a limit. In a nutshell, gradient descent does big steps when far way, and does baby steps when close to the optimal value.
+Gradient descent update the parameters (slopes) by calculating over and over its values until the predicted value is the same as the real value, the error is less than the learning rate or the number or iterations reach a limit. In a nutshell, gradient descent does big steps when far way, and does baby steps when close to the optimal value.
 ![bias-gradient-descent](https://raw.githubusercontent.com/AlonsoOropeza/LinearRegression/main/gradient-descent.png)  
-Where theta is each one of the parameters (theta 0 is the bias), alpha is the value of acceptance, m is the number of parameters, h0 is a prediction, y(i) is the real value and finally, xij is the value of the samples.   
+Where theta is each one of the parameters (theta 0 is the bias), alpha is the learning rate, m is the number of parameters, h0 is a prediction, y(i) is the real value and finally, xij is the value of the samples.   
 ### Mean Squared Error
 In order to calculate our error, in each epoch we will be using the mean squared error
 ![mean-squared-error](https://raw.githubusercontent.com/AlonsoOropeza/LinearRegression/main/mean-squared-error.png)  
