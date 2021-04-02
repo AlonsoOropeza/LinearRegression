@@ -58,6 +58,7 @@ You also need to pip install: pandas, numpy, matplotlib and sklearn.
 As we can see there is a relationship between handLen, footLen and height, but it is not as strong as we initially believed. Sure, we can make predictions, but the coeficient of determination is between 64% and 77%. The reason could be any of the following:
 - We have few data points in out dataset (compared with the industry), therefore the model isn't as good as we want.
 - The model is not as complex as the problem requires, maybe we could do better using trees or neural networks.
+
 Altough we can't predict lenghts of human features with high accuracy, we can make good aproximations. Based on the graphs, the error is low enough to be sure the model was trained, but when I compared it with the linear regression of sklearn the accuracy buffed up to 81%. My best guess, is that for low-size datasets, its better to use linear regression than gradient descent. Since the difference in performance is minimal, and the accuracy is higher, I think it's worth it. 
 ## Limitations
 Because we only analyze data from one source, it may be too soon to make generalized conclusions. Also the dataset contained stature, hand length, and foot length among 80 males and 75 females, which gives a total of 155 rows and that in the machine learning community is considered as a small sample. We definitily need more data (maybe records from different people around the world) to make better predicitions. 
