@@ -44,12 +44,16 @@ You also need to pip install: pandas, numpy, matplotlib and sklearn.
 5. Enter the asked parameters
 6. Review the prediction
 ## Results
+||
+|-|
 ![linear-model](https://raw.githubusercontent.com/AlonsoOropeza/LinearRegression/main/errors.png)
+
 ||final parameters|mean squared error|coeficient of determination|
 |-|-|-|-|
 |y=height|[74.54, 41.94, 31.87, 65.69]|17.77|0.77|
 |y=handLen|[8.74, 5.01, 3.64, 7.89]|0.53|0.64|
 |y=footLen|[10.91, 6.41, 4.39, 9.94]|0.70|0.74|
+
 ![linear-model](https://raw.githubusercontent.com/AlonsoOropeza/LinearRegression/main/handHeight.png)
 ![linear-model](https://raw.githubusercontent.com/AlonsoOropeza/LinearRegression/main/footHeight.png)
 ![linear-model](https://raw.githubusercontent.com/AlonsoOropeza/LinearRegression/main/handFoot.png)
