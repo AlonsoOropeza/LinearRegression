@@ -66,3 +66,4 @@ Because we only analyze data from one source, it may be too soon to make general
 S.G. Sani, E.D. Kizilkanat, N. Boyan, et al. (2005).
 "Stature Estmation Based on Hand Length and Foot Length," Clinical
 Anatomy, Vol. 18, pp. 589-596.
+Lanners, Q.. (2019). Choosing a Scikit-learn Linear Regression Algorithm. abril 24, 2021, de Towards Data Science Sitio web: https://towardsdatascience.com/choosing-a-scikit-learn-linear-regression-algorithm-dd96b48105f5
