@@ -146,8 +146,8 @@ elif op == 3:
 new_sample = []
 for quest in questions:
 	if(quest == 'gender'):
-		new_sample += [1,0] if input(quest + ' ') == 'male' else [0,1]
-	else: new_sample.append(float(input(quest + ' ')))
+		new_sample += [1,0] if input(quest + '[male/female] ') == 'male' else [0,1]
+	else: new_sample.append(float(input(quest + '[cm] ')))
 
 test_samples = X_test.values.tolist()
 test_samples.append(new_sample) # we add the new sample
