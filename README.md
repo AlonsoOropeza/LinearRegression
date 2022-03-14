@@ -59,4 +59,8 @@ Altough we can't predict lenghts of human features with high accuracy, we can ma
 ## Limitations
 Because we only analyze data from one source, it may be too soon to make generalized conclusions. Also the dataset contained stature, hand length, and foot length among 80 males and 75 females, which gives a total of 155 rows and that in the machine learning community is considered as a small sample. We definitily need more data (maybe records from different people around the world) to make better predicitions. 
 ## References
-[1]"UCI Machine Learning Repository: Chronic_Kidney_Disease Data Set", Archive.ics.uci.edu, 2022. [Online]. Available: https://archive.ics.uci.edu/ml/datasets/Chronic_Kidney_Disease#. [Accessed: 04- Mar- 2022].
+[1] S.G. Sani, E.D. Kizilkanat, N. Boyan, et al. (2005).
+"Stature Estmation Based on Hand Length and Foot Length," Clinical
+Anatomy, Vol. 18, pp. 589-596.
+
+[2] Lanners, Q. (2019). Choosing a Scikit-learn Linear Regression Algorithm. april 24, 2021, from Towards Data Science Web site: https://towardsdatascience.com/choosing-a-scikit-learn-linear-regression-algorithm-dd96b48105f5
